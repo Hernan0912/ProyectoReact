@@ -1,0 +1,202 @@
+[
+    {
+        "id":1,
+        "idCategoria":1,
+        "nombre":"NOTEBOOK",
+        "marca":"ACER",
+        "modelo":"A314 22 R3M4 AMD ATHLON SILVER",
+        "imagen":"../img/acer.png",
+        "valor":125000,
+        "stock":10
+    },
+    {
+        "id":2,
+        "idCategoria":1,
+        "nombre":"NOTEBOOK",
+        "marca":"PC BOX",
+        "modelo":"PCB-GLW2 CELERON UN43T5300AGCZB",
+        "imagen":"../img/pcBox.png",
+        "valor":75000,
+        "stock":10
+    },
+    {
+        "id":3,
+        "idCategoria":1,
+        "nombre":"NOTEBOOK",
+        "marca": "BGH",
+        "modelo":"AT300N ATOM X5-Z8350",
+        "imagen":"../img/bgh.png",
+        "valor":146000,
+        "stock":10
+    },
+    {
+        "id":4,
+        "idCategoria":1,
+        "nombre":"NOTEBOOK",
+        "marca":"GFAST",
+        "modelo":"N-100 I4120W INTEL CELERON",
+        "imagen":"../img/gfast.jfif",
+        "valor":150000,
+        "stock":10
+    },
+    {
+        "id":5,
+        "idCategoria":1,
+        "nombre":"NOTEBOOK",
+        "marca":"HDC",
+        "modelo":"CY-14N3450-464 INTEL CELERON",
+        "imagen":"../img/hdc.jfif",
+        "valor": 75000,
+        "stock":10
+    },
+    {
+        "id":6,
+        "idCategoria":1,
+        "nombre":"NOTEBOOK",
+        "marca":"HP",
+        "modelo":"240 G8 / 2Q9S5LT INTEL CELERON",
+        "imagen":"../img/hp.jfif",
+        "valor":11000,
+        "stock":10
+    },
+    {
+        "id":7,
+        "idCategoria":2,
+        "nombre":"CELULAR",
+        "marca":"SAMSUNG",
+        "modelo":"SM-F926B Z FOLD3 NEGRO",
+        "imagen":"../img/zfold.jfif",
+        "valor":400000,
+        "stock":10
+    },
+    {
+        "id":8,
+        "idCategoria":2,
+        "nombre":"CELULAR",
+        "marca":"SAMSUNG",
+        "modelo":"S22 ULTRA / SM-S908E NEGRO",
+        "imagen":"../img/s22ultra.jfif",
+        "valor":300000,
+        "stock":10
+    },
+    {
+        "id":9,
+        "idCategoria":2,
+        "nombre":"CELULAR",
+        "marca":"SAMSUNG",
+        "modelo":"S22+ / SM-S906EZKMARO ROSA",
+        "imagen":"../img/s22plus.jfif",
+        "valor":290000,
+        "stock":10
+    },
+    {
+        "id":10,
+        "idCategoria":2,
+        "nombre":"CELULAR",
+        "marca":"SAMSUNG",
+        "modelo":"GALAXY A03 SM-A032M AZUL AZUL",
+        "imagen":"../img/a03.jfif",
+        "valor":68000,
+        "stock":10
+    },
+    {
+        "id":11,
+        "idCategoria":2,
+        "nombre":"CELULAR",
+        "marca":"SAMSUNG",
+        "modelo":"GALAXY A13 SM-A135M NEGRO",
+        "imagen":"../img/a13.jfif",
+        "valor":73000,
+        "stock":10
+    },
+    {
+        "id":12,
+        "idCategoria":2,
+        "nombre":"CELULAR",
+        "marca":"MOTOROLA",
+        "modelo":"MOTO G52 XT2221-2 NEGRO NEGRO",
+        "imagen":"../img/g52.jfif",
+        "valor":135000,
+        "stock":10
+    },
+    {
+        "id":13,
+        "idCategoria":3,
+        "nombre":"SMART",
+        "marca":"BGH",
+        "modelo":"LED TV 32 PULGADAS HD B3219K5",
+        "imagen":"../img/bghTele.jfif",
+        "valor":56000,
+        "stock":10
+    },
+    {
+        "id":14,
+        "idCategoria":3,
+        "nombre":"SMART",
+        "marca":"TCL",
+        "modelo":"LED ANDROID TV 32 PULGADAS HD L32S61E-F",
+        "imagen":"../img/tcl.jfif",
+        "valor":53000,
+        "stock":10
+    },
+    {
+        "id":15,
+        "idCategoria":3,
+        "nombre":"SMART",
+        "marca":"PHILIPS",
+        "modelo":"LED TV 32 PULGADAS HD 32PHD6926/77",
+        "imagen":"../img/philips.jfif",
+        "valor":79000,
+        "stock":10
+    },
+    {
+        "id":16,
+        "idCategoria":3,
+        "nombre":"SMART",
+        "marca":"SAMSUNG",
+        "modelo":"LED TV 50 PULGADAS 4K UHD 50AU7000",
+        "imagen":"../img/samsungTele.jfif",
+        "valor":82000,
+        "stock":10
+    },
+    {
+        "id":17,
+        "idCategoria":3,
+        "nombre":"SMART",
+        "marca":"SAMSUNG",
+        "modelo":"LED TV 32 PULGADAS HD UN32T4300AGCZB",
+        "imagen":"../img/samsungTele2.jfif",
+        "valor":70000,
+        "stock":10
+    },
+    {
+        "id":18,
+        "idCategoria":3,
+        "nombre":"SMART",
+        "marca":"MOTOROLA",
+        "modelo":"LED ANDROID TV 32 PULGADAS HD",
+        "imagen":"../img/motorolaTele.jfif",
+        "valor":67000,
+        "stock":10
+    },
+    {
+        "id":19,
+        "idCategoria":3,
+        "nombre":"SMART",
+        "marca":"PHILIPS",
+        "modelo":"LED ANDROID TV 32 PULGADAS HD",
+        "imagen":"../img/philips2.jfif",
+        "valor":58000,
+        "stock":10
+    },
+    {
+        "id":20,
+        "idCategoria":3,
+        "nombre":"SMART",
+        "marca":"SAMSUNG",
+        "modelo":"LED TV 43 PULGADAS FULL HD",
+        "imagen":"../img/samsungTele3.jfif",
+        "valor":53000,
+        "stock":10
+    }
+]

@@ -1,3 +1,15 @@
 .titulo{
   background-color: aqua;
 }
+
+.cardProducto{
+  margin: 2rem;
+  gap: 2rem;
+  justify-content: center;
+}
+
+.itemDetail{
+  max-width: 540px;
+  margin-top: 20px;
+}
+

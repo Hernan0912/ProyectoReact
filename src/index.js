@@ -9,3 +9,5 @@ root.render(
     <App />
   </React.StrictMode>
 );
+
+//StricMonde ejecuta 2 veces, 1 de prueba y otra de ejecición original

@@ -13,3 +13,28 @@
   margin-top: 20px;
 }
 
+.letraBlanca{
+  text-decoration: none;
+  color: white;
+}
+
+.letraBlanca:hover{
+  color: white;
+}
+
+.countSpace{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 4rem;
+}
+
+.botonCount{
+  margin: 0 0.5rem 0.5rem 0.5rem;
+  border: 0.5px black solid;
+  text-align: center;
+}
+
+.agregarCarrito{
+  margin-bottom: 0.5rem;
+}

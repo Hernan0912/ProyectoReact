@@ -10,7 +10,7 @@ const Item = ({ producto }) => {
                     <p className="card-text">{producto.marca}</p>
                     <p className="card-text">{producto.modelo}</p>
                     <p className="card-text">Precio: ${new Intl.NumberFormat('de-DE').format(producto.valor)}</p>
-                    <button className='btn btn-primary' ><Link className="blanco" to={`/product/${producto.id}`}>Ver producto</Link></button>
+                    <button className='btn btn-primary' ><Link className="letraBlanca" to={`/product/${producto.id}`}>Ver producto</Link></button>
                 </div>
             </div>
         </>

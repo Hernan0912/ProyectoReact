@@ -15,11 +15,11 @@ const ItemCount = () => {
         }
 
     return (
-        <div>
-            <button className='btn btn-dark' onClick={()=>sumar()}>+</button>
+        <div className='countSpace'>
+            <button className='btn btn-light botonCount' onClick={()=>sumar()}>+</button>
             {numero}
-            <button className='btn btn-danger' onClick={()=>restar()}>-</button>
-            <button className='btn btn-success'>Agregar al carrito</button>
+            <button className='btn btn-light botonCount' onClick={()=>restar()}>-</button>
+            <button className='btn btn-success agregarCarrito'>Agregar al carrito</button>
         </div>
     );
 }

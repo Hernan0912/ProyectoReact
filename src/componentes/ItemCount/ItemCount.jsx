@@ -1,27 +1,21 @@
 import {useState} from 'react';
+import { Link } from 'react-router-dom';
 
-const ItemCount = () => {
-    const [numero, setnumero] = useState(1);
-    const sumar = () => {
-                if(numero < 10){
-                    setnumero(numero+1)
-                }
-            }
+const ItemCount = ({inicial, stock, onAdd}) => {
+const [contador, setContador] = useState(inicial);
 
-    const restar = () => {
-        
-        if(numero > 1){
-            setnumero(numero-1)}
-        }
-
+    const sumar = () => contador < stock && setContador(contador + 1)
+    const restar = () => contador > 1 && setContador(contador - 1)                   
+    const agregarAlCarrito = () => onAdd(contador)
+                        
     return (
-        <div className='countSpace'>
-            <button className='btn btn-light botonCount' onClick={()=>sumar()}>+</button>
-            {numero}
-            <button className='btn btn-light botonCount' onClick={()=>restar()}>-</button>
-            <button className='btn btn-success agregarCarrito'>Agregar al carrito</button>
+        <div>
+            <button onClick={restar} className='btn btn-light botonCount'><i className="fas fa-minus"></i></button>
+                {contador}
+            <button onClick={sumar} className='btn btn-light botonCount'><i className="fas fa-plus"></i></button>
+            <button className="btn btn-dark agregarCarrito" onClick={agregarAlCarrito}> <Link className='letraBlanca' to={'/Cart'}><i className="fas fa-cart-plus"></i></Link></button>
         </div>
     );
 }
-
+                        
 export default ItemCount;

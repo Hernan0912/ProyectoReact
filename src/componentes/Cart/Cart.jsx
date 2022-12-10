@@ -1,10 +1,11 @@
-
+import { Link } from "react-router-dom";
 
 const Cart = () => {
-    return (
-        <h1>
-           Carrito de compras
-        </h1>
+    return (   
+        <div className="carrito">
+            <h1>No hay productos seleccionados</h1>
+            <button className="nav-link btn btn-primary"><Link className="botonFinalizaCompra" to={'/checkout'}>Finalizar compra</Link></button>
+        </div>
     );
 }
 

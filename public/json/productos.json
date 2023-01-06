@@ -5,7 +5,7 @@
         "nombre":"NOTEBOOK",
         "marca":"ACER",
         "modelo":"A314 22 R3M4 AMD ATHLON SILVER",
-        "imagen":"../img/acer.png",
+        "imagen":"https://firebasestorage.googleapis.com/v0/b/react-primer-proyecto-dic-2022.appspot.com/o/acer.png?alt=media&token=27c167d7-bfb0-4914-aff0-4e6f91ea0c23",
         "valor":125000,
         "stock":10
     },
@@ -15,7 +15,7 @@
         "nombre":"NOTEBOOK",
         "marca":"PC BOX",
         "modelo":"PCB-GLW2 CELERON UN43T5300AGCZB",
-        "imagen":"../img/pcBox.png",
+        "imagen":"https://firebasestorage.googleapis.com/v0/b/react-primer-proyecto-dic-2022.appspot.com/o/pcBox.png?alt=media&token=e4978a39-a7d6-4cbc-b799-e4ddfa2f4b0e",
         "valor":75000,
         "stock":10
     },
@@ -25,7 +25,7 @@
         "nombre":"NOTEBOOK",
         "marca": "BGH",
         "modelo":"AT300N ATOM X5-Z8350",
-        "imagen":"../img/bgh.png",
+        "imagen":"https://firebasestorage.googleapis.com/v0/b/react-primer-proyecto-dic-2022.appspot.com/o/bgh.png?alt=media&token=c07ef527-f8a2-436a-bd30-1e09f259de76",
         "valor":146000,
         "stock":10
     },
@@ -35,7 +35,7 @@
         "nombre":"NOTEBOOK",
         "marca":"GFAST",
         "modelo":"N-100 I4120W INTEL CELERON",
-        "imagen":"../img/gfast.jfif",
+        "imagen":"https://firebasestorage.googleapis.com/v0/b/react-primer-proyecto-dic-2022.appspot.com/o/gfast.jfif?alt=media&token=3cc5011f-46a6-4473-b3a4-6ec1f6377920",
         "valor":150000,
         "stock":10
     },
@@ -45,7 +45,7 @@
         "nombre":"NOTEBOOK",
         "marca":"HDC",
         "modelo":"CY-14N3450-464 INTEL CELERON",
-        "imagen":"../img/hdc.jfif",
+        "imagen":"https://firebasestorage.googleapis.com/v0/b/react-primer-proyecto-dic-2022.appspot.com/o/hdc.jfif?alt=media&token=fe574cf4-d8f6-49c6-b0b7-6dd462cb1793",
         "valor": 75000,
         "stock":10
     },
@@ -55,7 +55,7 @@
         "nombre":"NOTEBOOK",
         "marca":"HP",
         "modelo":"240 G8 / 2Q9S5LT INTEL CELERON",
-        "imagen":"../img/hp.jfif",
+        "imagen":"https://firebasestorage.googleapis.com/v0/b/react-primer-proyecto-dic-2022.appspot.com/o/hp.jfif?alt=media&token=11e6ef4e-81ba-4661-b6f5-3a0dd195f8ac",
         "valor":11000,
         "stock":10
     },
@@ -65,7 +65,7 @@
         "nombre":"CELULAR",
         "marca":"SAMSUNG",
         "modelo":"SM-F926B Z FOLD3 NEGRO",
-        "imagen":"../img/zfold.jfif",
+        "imagen":"https://firebasestorage.googleapis.com/v0/b/react-primer-proyecto-dic-2022.appspot.com/o/zfold.jfif?alt=media&token=ce5e87af-be75-4ccd-ae01-b4dae51726d6",
         "valor":400000,
         "stock":10
     },
@@ -75,7 +75,7 @@
         "nombre":"CELULAR",
         "marca":"SAMSUNG",
         "modelo":"S22 ULTRA / SM-S908E NEGRO",
-        "imagen":"../img/s22ultra.jfif",
+        "imagen":"https://firebasestorage.googleapis.com/v0/b/react-primer-proyecto-dic-2022.appspot.com/o/s22ultra.jfif?alt=media&token=080c17b4-effb-4ca2-bbf4-c8e0d9f5c5c9",
         "valor":300000,
         "stock":10
     },
@@ -85,7 +85,7 @@
         "nombre":"CELULAR",
         "marca":"SAMSUNG",
         "modelo":"S22+ / SM-S906EZKMARO ROSA",
-        "imagen":"../img/s22plus.jfif",
+        "imagen":"https://firebasestorage.googleapis.com/v0/b/react-primer-proyecto-dic-2022.appspot.com/o/s22plus.jfif?alt=media&token=d9574310-66aa-47b8-be89-e42baa90bc5d",
         "valor":290000,
         "stock":10
     },
@@ -95,7 +95,7 @@
         "nombre":"CELULAR",
         "marca":"SAMSUNG",
         "modelo":"GALAXY A03 SM-A032M AZUL AZUL",
-        "imagen":"../img/a03.jfif",
+        "imagen":"https://firebasestorage.googleapis.com/v0/b/react-primer-proyecto-dic-2022.appspot.com/o/a03.jfif?alt=media&token=f2d70d17-ed55-4a90-ae9a-ef8a6c7d4a6a",
         "valor":68000,
         "stock":10
     },
@@ -105,7 +105,7 @@
         "nombre":"CELULAR",
         "marca":"SAMSUNG",
         "modelo":"GALAXY A13 SM-A135M NEGRO",
-        "imagen":"../img/a13.jfif",
+        "imagen":"https://firebasestorage.googleapis.com/v0/b/react-primer-proyecto-dic-2022.appspot.com/o/a13.jfif?alt=media&token=364f5462-1fe3-4946-9cab-76e6759f0d81",
         "valor":73000,
         "stock":10
     },
@@ -115,7 +115,7 @@
         "nombre":"CELULAR",
         "marca":"MOTOROLA",
         "modelo":"MOTO G52 XT2221-2 NEGRO NEGRO",
-        "imagen":"../img/g52.jfif",
+        "imagen":"https://firebasestorage.googleapis.com/v0/b/react-primer-proyecto-dic-2022.appspot.com/o/bghTele.jfif?alt=media&token=d38b84b2-1b2a-4f61-9926-38717a66aa61",
         "valor":135000,
         "stock":10
     },
@@ -125,7 +125,7 @@
         "nombre":"SMART",
         "marca":"BGH",
         "modelo":"LED TV 32 PULGADAS HD B3219K5",
-        "imagen":"../img/bghTele.jfif",
+        "imagen":"https://firebasestorage.googleapis.com/v0/b/react-primer-proyecto-dic-2022.appspot.com/o/bghTele.jfif?alt=media&token=d38b84b2-1b2a-4f61-9926-38717a66aa61",
         "valor":56000,
         "stock":10
     },
@@ -135,7 +135,7 @@
         "nombre":"SMART",
         "marca":"TCL",
         "modelo":"LED ANDROID TV 32 PULGADAS HD L32S61E-F",
-        "imagen":"../img/tcl.jfif",
+        "imagen":"https://firebasestorage.googleapis.com/v0/b/react-primer-proyecto-dic-2022.appspot.com/o/tcl.jfif?alt=media&token=307a45f5-ef73-45d5-bcda-c5208e0dab57",
         "valor":53000,
         "stock":10
     },
@@ -145,7 +145,7 @@
         "nombre":"SMART",
         "marca":"PHILIPS",
         "modelo":"LED TV 32 PULGADAS HD 32PHD6926/77",
-        "imagen":"../img/philips.jfif",
+        "imagen":"https://firebasestorage.googleapis.com/v0/b/react-primer-proyecto-dic-2022.appspot.com/o/philips.jfif?alt=media&token=c9ff98e2-36c5-47f0-ae13-0e7ced481ee3",
         "valor":79000,
         "stock":10
     },
@@ -155,7 +155,7 @@
         "nombre":"SMART",
         "marca":"SAMSUNG",
         "modelo":"LED TV 50 PULGADAS 4K UHD 50AU7000",
-        "imagen":"../img/samsungTele.jfif",
+        "imagen":"https://firebasestorage.googleapis.com/v0/b/react-primer-proyecto-dic-2022.appspot.com/o/samsungTele.jfif?alt=media&token=c141e6c8-0f9d-4e1f-b0f4-632273a185f4",
         "valor":82000,
         "stock":10
     },
@@ -165,7 +165,7 @@
         "nombre":"SMART",
         "marca":"SAMSUNG",
         "modelo":"LED TV 32 PULGADAS HD UN32T4300AGCZB",
-        "imagen":"../img/samsungTele2.jfif",
+        "imagen":"https://firebasestorage.googleapis.com/v0/b/react-primer-proyecto-dic-2022.appspot.com/o/samsungTele2.jfif?alt=media&token=9d5a3e05-f1e6-4e7e-bd25-ae05120e39dd",
         "valor":70000,
         "stock":10
     },
@@ -175,7 +175,7 @@
         "nombre":"SMART",
         "marca":"MOTOROLA",
         "modelo":"LED ANDROID TV 32 PULGADAS HD",
-        "imagen":"../img/motorolaTele.jfif",
+        "imagen":"https://firebasestorage.googleapis.com/v0/b/react-primer-proyecto-dic-2022.appspot.com/o/motorolaTele.jfif?alt=media&token=8751b532-d1a2-4973-874c-44851f5f4fc2",
         "valor":67000,
         "stock":10
     },
@@ -185,7 +185,7 @@
         "nombre":"SMART",
         "marca":"PHILIPS",
         "modelo":"LED ANDROID TV 32 PULGADAS HD",
-        "imagen":"../img/philips2.jfif",
+        "imagen":"https://firebasestorage.googleapis.com/v0/b/react-primer-proyecto-dic-2022.appspot.com/o/philips2.jfif?alt=media&token=3c71b82a-31be-403e-b7fb-b31de374fbdf",
         "valor":58000,
         "stock":10
     },
@@ -195,7 +195,7 @@
         "nombre":"SMART",
         "marca":"SAMSUNG",
         "modelo":"LED TV 43 PULGADAS FULL HD",
-        "imagen":"../img/samsungTele3.jfif",
+        "imagen":"https://firebasestorage.googleapis.com/v0/b/react-primer-proyecto-dic-2022.appspot.com/o/samsungTele3.jfif?alt=media&token=9d7c4486-3912-4d7b-a367-c2feb5ef9e41",
         "valor":53000,
         "stock":10
     }

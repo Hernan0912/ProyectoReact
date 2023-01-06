@@ -17,3 +17,8 @@ ion-icon{
   font-size: 2rem;
 }
 
+body{
+  background-color: gainsboro;
+  transition: all 0.5 ease;
+}
+

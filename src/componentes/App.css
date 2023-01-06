@@ -8,6 +8,23 @@
   justify-content: center;
 }
 
+.cardBodyDark {
+  background-color: grey;
+}
+
+.cardBody{
+  color: black;
+}
+
+.cuerpo{
+  background-color: black;
+}
+
+.darkMode{
+  background-color: black;
+  color: white;
+}
+
 .itemDetail{
   max-width: 540px;
   margin-top: 20px;
@@ -16,6 +33,11 @@
 .letraBlanca{
   text-decoration: none;
   color: white;
+}
+
+.letraNegra{
+  text-decoration: none;
+  color: black;
 }
 
 .letraBlanca:hover{
@@ -45,4 +67,45 @@
 
 .botonFinalizaCompra:hover{
   color: white;
+}
+
+.negrita{
+  color: black;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-left: 1rem;
+}
+
+.blanco{
+  color: white;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.botoneraCarrito{
+  display: flex;
+  padding-bottom: 4rem;
+}
+
+.botoneraCarrito > button{
+  margin-right: 1rem;
+}
+
+.cartContainer{
+  text-align: center;
+  align-items: center;
+  padding: 1rem;
+}
+
+.imgCarrito{
+  display: flex;
+  justify-content: center;
+}
+
+.modoOscuro{
+  padding: 1rem;
+}
+
+.container{
+  padding-bottom: 2rem;
 }

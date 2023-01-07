@@ -10,6 +10,8 @@
 
 .cardBodyDark {
   background-color: grey;
+  flex: 1 1 auto;
+  padding: 1rem 1rem
 }
 
 .cardBody{
@@ -108,4 +110,8 @@
 
 .container{
   padding-bottom: 2rem;
+}
+
+.red{
+  color: red;
 }

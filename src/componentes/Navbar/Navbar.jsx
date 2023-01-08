@@ -13,12 +13,13 @@ const Navbar = () => {
                 </button>
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
                     <Categorias/>
-                    <CartWidget/>
-                    <BotonDarkMode/>
+                    <div className="prueba">
+                        <CartWidget/>
+                        <BotonDarkMode/>
                     </div>
+                </div>
             </div>
         </nav>
-    
     );
 }
 

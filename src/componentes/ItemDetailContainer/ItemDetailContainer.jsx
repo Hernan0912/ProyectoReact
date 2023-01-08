@@ -10,10 +10,6 @@ const ItemDetailContainer = () => {
 
     useEffect(() => {
         
-        /*consultarBDD('../json/productos.json').then(productos => {
-            const prod = productos.find(product => product.id === parseInt(id))
-            setProducto(prod)*/
-            
             getProducto(id).then(prod => setProducto(prod))
     }, []);
 

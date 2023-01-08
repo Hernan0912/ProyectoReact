@@ -5,6 +5,7 @@ import { createOrdenCompra, getOrdenCompra, getProducto, updateProducto } from '
 import { useCarritoContext } from '../../Context/CarritoContext';
 //El elemento para crear una notificación se llama "toast"
 import { toast } from 'react-toastify';
+import { Link } from 'react-router-dom';
 
 const Checkout = () => {
 
@@ -26,10 +27,8 @@ const Checkout = () => {
     }
     const consultarFormulario = (e) =>{
         e.preventDefault()
-        //const datForm = new FormData(datosFormulario.current);
-        //const cliente = Object.fromEntries(datForm);
 
-        setErroresFormulario(validarErroresFormulario(valorFormulario));
+        setErroresFormulario(validarErroresFormulario(valorFormulario)); 
 
         const aux = [...carrito]
         aux.forEach(prodCarrito=>{
@@ -38,26 +37,18 @@ const Checkout = () => {
                     //prodBDD.stock -= prodCarrito.cant
                     updateProducto(prodCarrito.id, prodBDD)
                 }else{
-                    console.log("Stock insuficiente")
-                    //CASO USO PRODUCTO NO COMPRADO, LO VEMOS EL MARTES
+                    toast.error(`El producto ${prodBDD.nombre} mo tiene stock disponible`)
+                    emptyCart()
                 }
             })
         })
-
-        //Formato de fecha occidental
-        /*createOrdenCompra(cliente, totalPrice(), new Date().toISOString()).then(ordenCompra => {
-
-        getOrdenCompra(ordenCompra.id).then(item => {
-                toast.success(`Su pedido fue procesado. Su orden de compra es: ${item.id}`)
-                emptyCart()
-                e.target.reset()
-                //navigate("/")
-            })
-        })*/
     }
 
     useEffect(()=>{
         const arrayErrors = Object.values(erroresFormulario)
+        console.log("arrayErrors: ",arrayErrors)
+        console.log("arrayErrors.length: ",arrayErrors.length)
+        console.log("contador: ",contador)
         if(arrayErrors.length === 0 && contador === 1){
             setValidar(true);
 
@@ -69,7 +60,6 @@ const Checkout = () => {
                 getOrdenCompra(ordenCompra.id).then(item => {
                         toast.success(`Su pedido fue procesado. Su orden de compra es: ${item.id}`)
                         emptyCart()
-                        //e.target.reset()
                         navigate("/")
                     })
                 })
@@ -77,32 +67,48 @@ const Checkout = () => {
         setContador(1)
     },[erroresFormulario])
 
+    //VALIDACION DEL FORMULARIO
     const validarErroresFormulario = (values)=>{
+        const numeros=["1","2","3","4","5","6","7","8","9","0"]
         const errors = {}
-        const regex = /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/i;
+        const regex = /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/;
+        const regexNombre = /[A-Za-z]$/;
         
-        if(values.nombre === " "){
-            errors.nombre = "*El nombre es obligatorio"
+        if(regexNombre.test(values.nombre)){
+        }else{
+            errors.nombre="*Formato de nombre incorrecto"
         }
+
         if(values.email === " " ){
             errors.email = "*El email es obligatorio"
         }else if(!regex.test(values.email)){
             errors.email = "*Formato de email no valido"
+        }else if(!values.email){
+            errors.email = "*El email es obligatorio"
         }
         if(values.email2 === " "){
             errors.email2 = "*Repita su email"
         }else if(values.email2 != values.email){
             errors.email2 = "*Los emails no coinciden"
+        }else if(!values.email2){
+            errors.email2 = "*Repita su email"
         }
         if(values.dni === " "){
+            errors.dni = "*El dni es obligatorio"
+        }else if(!values.dni){
             errors.dni = "*El dni es obligatorio"
         }
         if(values.celular === " "){
             errors.celular = "*El celular es obligatorio"
+        }else if(!values.celular){
+            errors.celular = "*El celular es obligatorio"
         }
         if(values.direccion === " "){
             errors.direccion = "*La direccion es obligatoria"
+        }else if(!values.direccion){
+            errors.direccion = "*La direccion es obligatoria"
         }
+
         return errors;
     }
     
@@ -143,8 +149,11 @@ const Checkout = () => {
                     <label htmlFor="direccion" className="form-label">Dirección</label>
                     <input type="text" className="form-control" name="direccion" value={valorFormulario.direccion} onChange={handleChange}/>
                     <p className='red'>{erroresFormulario.direccion}</p>
-                </div>                
-                <button type="submit" className="btn btn-primary">Finalizar Compra</button>
+                </div>
+                <div className='botonFormulario'>        
+                    <button type="submit" className="btn btn-primary">Finalizar Compra</button>
+                    <button className="nav-link btn btn-primary"><Link className="botonFinalizaCompra" to={'/cart'}>Volver al carrito</Link></button>
+                </div>
             </form>
         </div>
     );

@@ -16,13 +16,17 @@ const ItemDetail = ({item}) => {
                 <img src={item.img} alt="" className='img-fluid rounded-start'/>
             </div>
             <div className='col-md-8 letraNegra'>
-                <h5 className='card-title'>{item.nombre}</h5>
-                <p className='card-text'>Modelo: {item.modelo}</p>
-                <p className='card-text'>Marca: {item.marca}</p>
-                <p className='card-text'>Precio: ${new Intl.NumberFormat('de-DE').format(item.precio)}</p>
-                <p className='card-text'>Stock: {item.stock}</p>
-                <ItemCount inicial={1} stock={item.stock} onAdd={onAdd}/>
-                <button className='btn btn-primary agregarCarrito'> <Link to={'/Cart'} className='letraBlanca'>Finalizar compra</Link></button>
+                <div className="card-body">
+                    <h5 className='card-title'>{item.nombre}</h5>
+                    <p className='card-text'>Modelo: {item.modelo}</p>
+                    <p className='card-text'>Marca: {item.marca}</p>
+                    <p className='card-text'>Precio: ${new Intl.NumberFormat('de-DE').format(item.precio)}</p>
+                    <p className='card-text'>Stock: {item.stock}</p>
+                    <ItemCount inicial={1} stock={item.stock} onAdd={onAdd}/>
+                    <div className='agregarCarrito'>
+                        <button className='btn btn-primary'> <Link to={'/Cart'} className='letraBlanca'>Ir al carrito</Link></button>
+                    </div>
+                </div>
             </div>
         </div>
     );

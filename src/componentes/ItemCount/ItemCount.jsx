@@ -13,7 +13,7 @@ const [contador, setContador] = useState(inicial);
             <button onClick={restar} className='btn btn-light botonCount'><i className="fas fa-minus"></i></button>
                 {contador}
             <button onClick={sumar} className='btn btn-light botonCount'><i className="fas fa-plus"></i></button>
-            <button className="btn btn-dark agregarCarrito" onClick={agregarAlCarrito}> <Link className='letraBlanca' to={'/Cart'}><i className="fas fa-cart-plus"></i></Link></button>
+            <button className="btn btn-dark agregarCarritoImagen" onClick={agregarAlCarrito}> <Link className='letraBlanca' to={'/Cart'}><i className="fas fa-cart-plus"></i></Link></button>
         </div>
     );
 }

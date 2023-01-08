@@ -18,7 +18,8 @@ ion-icon{
 }
 
 body{
-  background-color: gainsboro;
+  background-color: lightgray;
   transition: all 0.5 ease;
+  height: 100vh;
 }
 

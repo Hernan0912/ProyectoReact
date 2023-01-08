@@ -5,7 +5,7 @@ const Item = ({ producto }) => {
     const {darkMode} = useDarkModeContext()
     return (
         <>
-            <div className={`card ${darkMode ? 'cardBodyDark' : 'card-body'}`} style={{ width: '18rem' }} >
+            <div className={`card mb-3 ${darkMode ? 'cardBodyDark' : 'card-body'}`} style={{ width: '18rem' }} >
                 <div className='card-body'>
                     <img src={producto.img} className="card-img-top" alt="..." />
                     <h5 className="card-title">{producto.nombre}</h5>

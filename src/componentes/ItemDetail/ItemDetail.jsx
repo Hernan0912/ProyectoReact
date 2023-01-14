@@ -24,7 +24,7 @@ const ItemDetail = ({item}) => {
                     <p className='card-text'>Stock: {item.stock}</p>
                     <ItemCount inicial={1} stock={item.stock} onAdd={onAdd}/>
                     <div className='agregarCarrito'>
-                        <button className='btn btn-primary'> <Link to={'/Cart'} className='letraBlanca'>Ir al carrito</Link></button>
+                        <button  className='btn btn-primary'> <Link to={'/Cart'} className='letraBlanca'>Ver mi carrito</Link></button>
                     </div>
                 </div>
             </div>

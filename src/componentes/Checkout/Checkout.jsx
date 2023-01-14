@@ -46,9 +46,6 @@ const Checkout = () => {
 
     useEffect(()=>{
         const arrayErrors = Object.values(erroresFormulario)
-        console.log("arrayErrors: ",arrayErrors)
-        console.log("arrayErrors.length: ",arrayErrors.length)
-        console.log("contador: ",contador)
         if(arrayErrors.length === 0 && contador === 1){
             setValidar(true);
 

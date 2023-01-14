@@ -3,6 +3,7 @@ import { useCarritoContext } from "../../Context/CarritoContext";
 
 const CartWidget = () => {
     const {getItemQuantity} = useCarritoContext()
+
     return (
             <ul className="navbar-nav me-auto">
                 <li className="nav-link">

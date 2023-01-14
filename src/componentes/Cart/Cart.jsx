@@ -1,10 +1,23 @@
 import { Link } from "react-router-dom";
 import { useCarritoContext } from "../../Context/CarritoContext";
 import { useDarkModeContext } from '../../Context/DarkModeContext';
+import { toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 const Cart = () => {
     const {carrito, emptyCart, totalPrice, removeItem} = useCarritoContext()
     const {darkMode} = useDarkModeContext()
+        const eliminarProducto = () =>{
+            toast.error('Producto Eliminado con éxito!', {
+                position: "top-right",
+                autoClose: 2000,
+                hideProgressBar: false,
+                closeOnClick: true,
+                pauseOnHover: true,
+                draggable: true,
+                theme: "colored",
+                });
+        }
     return (   
         <>
             {carrito.length === 0 ?
@@ -29,7 +42,7 @@ const Cart = () => {
                                             <p className="card-text">Precio: ${new Intl.NumberFormat('de-De').format(prod.precio)}</p>
                                             <p className="card-text negrita">Total: ${new Intl.NumberFormat('de-De').format(prod.cant*prod.precio)}</p>
                                         </div>
-                                        <button className="btn btn-danger" onClick={() => removeItem(prod.id)}>Eliminar producto</button>
+                                        <button className="btn btn-danger" onClick={() =>{ removeItem(prod.id); eliminarProducto()}}>Eliminar producto</button>
                                     </div>
                                 </div>
                             )

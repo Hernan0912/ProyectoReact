@@ -1,7 +1,5 @@
 # React-Proyecto-Final 
 
-_proyecto final coderhouse comisión 41100 react.js_
-
 # Construido con:
 [React] (https://es.reactjs.org/) - javaScript FrameWork
 [Boostrap] (https://getbootstrap.com/docs/5.0/getting-started/introduction/)
